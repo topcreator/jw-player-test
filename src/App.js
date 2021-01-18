@@ -6,29 +6,36 @@ import './App.css';
 const playlist = [{
   default: true,
   endtime: 0,
-  file: "https://content.jwplatform.com/manifests/yp34SRmf.m3u8",
+  file: "https://www.dropbox.com/s/8vfngf9327per8k/01%20Red%20Movie.mp4?raw=1",
   starttime: 0,
   status: true,
-  title: "Test video - 1",
+  title: "Red Movie",
 },
 {
   default: false,
   endtime: 0,
-  file: "//videos.electroteque.org/bitrate/big_buck_bunny_600k.mp4",
-  // file: 'https://www.youtube.com/watch?v=NztNVRQ4E1Y',
+  file: "https://www.dropbox.com/s/a1f25h7vnpnyz9v/02%20Blue%20Movie.mp4?raw=1",
   starttime: 0,
   status: true,
-  title: "Test Video ----2",
+  title: "Blue Movie",
 },
 {
   default: false,
   endtime: 0,
-  file: "https://www.dropbox.com/s/iy4gwh9t3efm0uh/MIN_05907_HD%20-%20Moxy%20Fruvous%20Interview.mp4?raw=1",
-  // file: 'https://www.youtube.com/watch?v=0lbH_Z-Xi1Q',
+  file: "https://www.dropbox.com/s/eopew3rz2wwjknl/03%20Green%20Movie.mp4?raw=1",
   starttime: 0,
   status: true,
-  title: "Test Video -----3",
-}];
+  title: "Green Movie",
+},
+{
+  default: false,
+  endtime: 0,
+  file: "https://www.dropbox.com/s/sr9vfmnf77r49tk/04%20Yellow%20Movie.mp4?raw=1",
+  starttime: 0,
+  status: true,
+  title: "Yellow Movie",
+}
+];
 
 let player;
 function App() {
