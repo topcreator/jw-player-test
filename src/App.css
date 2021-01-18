@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.App ul {
+  list-style: none;
+  text-align: left;
+}
+
+.App ul li {
+  padding: 10px 0;
+}
+
+.App ul li.is-playing {
+  color: red;
+  font-weight: bold;
+}
