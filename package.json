@@ -12,7 +12,8 @@
     "react-jw-player": "^1.19.1",
     "react-scripts": "3.4.2"
   },
-  "scripts": {    
+  "scripts": {
+    
     "start": "node server/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -108,12 +108,12 @@ function App() {
     }
   }
 
-  const plugins = {
-    '/js/videomarkers-8.1.0.js': {
-      editor: true,
-      navigation: true,
-    },
-  };
+  // const plugins = {
+  //   'js/videomarkers-8.1.0.js': {
+  //     editor: true,
+  //     navigation: true,
+  //   },
+  // };
 
   return (
     <div className="App">
@@ -123,7 +123,7 @@ function App() {
           playerId="jw-player"
           playerScript="https://cdn.jwplayer.com/libraries/L2lWZS0f.js"
           playlist={playlist}
-          customProps={{ plugins }}
+          // customProps={{ plugins }}
           isAutoPlay
           onReady={onReady}
           onVideoLoad={onVideoLoad}
