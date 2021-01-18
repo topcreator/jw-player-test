@@ -122,8 +122,8 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <div style={{width: '100%'}}>
+    <div className="App" style={{width: '100%', textAlign: 'center'}}>
+      <div style={{width: 1000}}>
         <ReactJWPlayer
           className="clip-jw-player"
           playerId="jw-player"
