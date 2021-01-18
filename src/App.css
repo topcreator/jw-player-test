@@ -44,6 +44,7 @@
 
 .App ul li {
   padding: 10px 0;
+  cursor: pointer;
 }
 
 .App ul li.is-playing {
