@@ -65,7 +65,11 @@ function App() {
     console.log('onTime==>', playlistCurrentIndex, video);
 
     setTitle(video.title);
-    setIndex(playlistCurrentIndex)
+    setIndex(playlistCurrentIndex);
+    if (event.duration - event.position <= 5) {
+      player.playlistNext();
+    }
+
     // const endtime = playlist[0].endtime;
     // const starttime = playlist[0].starttime;
     // if(player) {
