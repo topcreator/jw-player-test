@@ -66,9 +66,9 @@ function App() {
 
     setTitle(video.title);
     setIndex(playlistCurrentIndex);
-    if (event.duration - event.position <= 5) {
-      player.playlistNext();
-    }
+    // if (event.duration - event.position <= 5) {
+    //   player.playlistNext();
+    // }
 
     // const endtime = playlist[0].endtime;
     // const starttime = playlist[0].starttime;
